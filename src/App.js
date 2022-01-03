@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+/** class --in javascript class is reveserved keyword
+ * because of that we have to use "classname" instesd of "class". class-->className
+ * @return
+ */
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    
+      <h1 className="bg-alert alert-danger p-4 text-black">hello vishwadip</h1>
+      <h1>hello ANNA</h1>
     </div>
   );
 }
-
-export default App;
